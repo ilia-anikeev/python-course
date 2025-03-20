@@ -1,0 +1,5 @@
+services:
+  generator-service:
+    image: generator-img
+    volumes:
+      - ./resources:/app/resources
