@@ -1,5 +1,8 @@
 from matrix_lib import Matrix
+from numpy_matrix import NumPyMatrix
 import numpy as np
+
+# -------- task 1 ---------
 
 np.random.seed(0)
 matrix_a = Matrix(np.random.randint(0, 10, (10, 10)).tolist())
@@ -14,7 +17,22 @@ result_mul.save_to_file('matrix_mul.txt')
 result_matmul = matrix_a @ matrix_b
 result_matmul.save_to_file('matrix_matmul.txt')
 
+# -------- task 2 ---------
 
+np.random.seed(0)
+matrix_data = np.random.randint(0, 10, (10, 10)).tolist()
+matrix = NumPyMatrix(matrix_data)
+
+result_add = matrix + matrix
+result_add.save('matrix_add.txt')
+
+result_mul = matrix * 2
+result_mul.save('matrix_mul.txt')
+
+result_matmul = matrix @ matrix
+result_matmul.save('matrix_matmul.txt')
+
+# -------- task 3 ---------
 
 np.random.seed(0)
 A = Matrix(np.random.randint(0, 10, (10, 10)).tolist())
