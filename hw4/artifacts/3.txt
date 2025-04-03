@@ -1,0 +1,23 @@
+alohaaaa
+Sending to Processor A: alohaaaa
+----------------------------------------
+Timestamp: 2025-04-03 23:45:25.436255
+Original Message: alohaaaa
+Processed Message: nybunnnn
+========================================
+
+some_my_message
+Sending to Processor A: some_my_message
+----------------------------------------
+Timestamp: 2025-04-03 23:45:30.575201
+Original Message: some_my_message
+Processed Message: fbzr_zl_zrffntr
+========================================
+
+vsem privet eto ya baluysya
+Sending to Processor A: vsem privet eto ya baluysya
+----------------------------------------
+Timestamp: 2025-04-03 23:45:50.849217
+Original Message: vsem privet eto ya baluysya
+Processed Message: ifrz cevirg rgb ln onyhlfln
+========================================
